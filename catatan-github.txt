@@ -34,3 +34,8 @@ git commit -m "pesan commit"
 git push -u origin main     => finalisasi pengiriman source code
 
 jika push kedua kali dst cukup ketik perintah git push
+
+
+syarat kolaborasi:
+1. invite developer ke repo kita
+2. narik perubahan dari collaborator lain: git pull
