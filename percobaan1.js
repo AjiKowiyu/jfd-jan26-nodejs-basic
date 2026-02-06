@@ -21,3 +21,4 @@ server.listen(3000, function(){
 
 // nyalain server: node namafile
 // matiin server: ctrl + c
+// tes aja buat github

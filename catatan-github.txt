@@ -38,4 +38,5 @@ jika push kedua kali dst cukup ketik perintah git push
 
 syarat kolaborasi:
 1. invite developer ke repo kita
-2. narik perubahan dari collaborator lain: git pull
+2. collaborator clone repo kita
+3. narik perubahan dari collaborator lain: git pull
