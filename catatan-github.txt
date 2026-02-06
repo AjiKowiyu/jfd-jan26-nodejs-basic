@@ -13,7 +13,9 @@ fungsi utama github:
 
 
 status dalam git:
-Untracked => file yg belum terdeteksi oleh sistem git.
+Untracked   => file yg belum terdeteksi oleh sistem git.
+Modified    => file yg existing, di modifikasi/ dilakukan perubahan isi file.
+Added       => file yg sudah masuk tahap/stage add.
 
 
 langkah-langkah mengirim source code ke github:
@@ -23,3 +25,12 @@ langkah-langkah mengirim source code ke github:
 
 
 git init => mendaftarkan repo lokal kita sebagai repo yg sudah memakai sistem git
+git branch -M main => mengganti cabang utama dengan nama main
+git remote add origin https://link-ke-repo-github-kita => menghubungkan repo lokal dengan repo cloud tujuan
+git config --global user.email "youremail@provider.com"
+git config --global user.name "yourAccountName"
+git add .   => menambahkan semua files
+git commit -m "pesan commit"
+git push -u origin main     => finalisasi pengiriman source code
+
+jika push kedua kali dst cukup ketik perintah git push
